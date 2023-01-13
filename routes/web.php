@@ -28,5 +28,7 @@ Route::get('/', function () {
 
     ];
 
-    return view('homepage', ["links" => $headerLinks]);
+    $myconfig = require config_path("comics.php");
+
+    return view('homepage', ["links" => $headerLinks], ["movies" => $myconfig]);
 });

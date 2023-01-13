@@ -25,6 +25,17 @@
             <div class="jumbo-container">
             
             </div>
+            
+            <div class="movie-section">
+                <div class="movie-container">
+                    @foreach($movies as $movie)
+                    <div class="movie">
+                    <img src="{{$movie['thumb']}}" alt="" class="movie-thumb">
+                    </div>
+                    @endforeach 
+                
+                </div>
+            </div>
         </div>
     </main>
 

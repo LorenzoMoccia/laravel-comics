@@ -4,3 +4,31 @@
     background-image: url("../img/jumbotron.jpg");
 }
 
+.movie-section{
+    background-color: #1c1c1c;
+    border: 1px dashed red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-container{
+    border:1px dashed yellow;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.movie{
+    width: 230px;
+    height: 230px;
+    border: 1px dashed lime;
+    margin-top: 30px;
+}
+
+.movie-thumb{
+    width: 230px;
+    height: 230px;
+}
