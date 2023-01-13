@@ -6,14 +6,12 @@
 
 .movie-section{
     background-color: #1c1c1c;
-    border: 1px dashed red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .movie-container{
-    border:1px dashed yellow;
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -24,11 +22,17 @@
 .movie{
     width: 230px;
     height: 230px;
-    border: 1px dashed lime;
     margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 20px;
 }
 
 .movie-thumb{
     width: 230px;
     height: 230px;
+}
+
+.movie-series{
+    text-align: center;
+    color: white;
 }

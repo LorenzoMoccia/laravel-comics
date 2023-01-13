@@ -31,7 +31,9 @@
                     @foreach($movies as $movie)
                     <div class="movie">
                     <img src="{{$movie['thumb']}}" alt="" class="movie-thumb">
+                    <p class="movie-series">{{strtoupper($movie['series'])}}</p>
                     </div>
+
                     @endforeach 
                 
                 </div>
