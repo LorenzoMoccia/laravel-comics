@@ -28,5 +28,5 @@ Route::get('/', function () {
 
     ];
 
-    return view('homepage', $headerLinks);
+    return view('homepage', ["links" => $headerLinks]);
 });

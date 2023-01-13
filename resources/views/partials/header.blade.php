@@ -5,10 +5,10 @@
         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo">
         </div>
         <div class="list-container">
-            <ul>
-                @foreach($headerLinks as $headerLink)
-                <li>{{$headerLink}}</li>
-                @endforeach
+            <ul class="header-list">
+            @foreach($links as $link)
+            <li>{{$link}}</li>
+            @endforeach
             </ul>
         </div>
     </div>
