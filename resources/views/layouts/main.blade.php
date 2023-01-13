@@ -20,6 +20,12 @@
 
     <main>
         @yield('page-content')
+
+        <div class="main-container">
+            <div class="jumbo-container">
+            
+            </div>
+        </div>
     </main>
 
     @include('partials.footer')
